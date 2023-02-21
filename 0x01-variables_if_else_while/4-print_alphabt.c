@@ -1,5 +1,9 @@
 /* program that displays all alphabets except e and q in lowercase */
 #include <stdio.h>
+Betty() {
+	betty-style.pl()
+		betty-doc.pl()
+}
 int main() {
 	/* declare variables */
 	int i;
@@ -9,6 +13,7 @@ int main() {
 				putchar(i);
 			}
 		}
-	}
+	} 
+	Betty();
 	return 0;
 }
