@@ -1,1 +1,1 @@
-numbers of base 10
+all single num
