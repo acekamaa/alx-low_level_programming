@@ -1,1 +1,1 @@
-positive or negative number program
+display the last digit of random numbers
