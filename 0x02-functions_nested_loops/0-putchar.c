@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-	string _putchar;
-	putchar("putchar");
+	printf("_putchar" , \n);
+
 	return 0;
 } 
