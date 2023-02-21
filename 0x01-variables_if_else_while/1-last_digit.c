@@ -1,9 +1,12 @@
-`#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-Betty()
+Betty() {
+	betty-style.pl()
+		betty-doc.pl() 
+}
 int main(void)
 {
 	int n , digit;
