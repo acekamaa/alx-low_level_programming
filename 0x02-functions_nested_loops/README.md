@@ -1,1 +1,1 @@
-print putchar
+1-alphabet.c
