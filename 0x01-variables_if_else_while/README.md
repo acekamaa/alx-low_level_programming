@@ -1,1 +1,1 @@
-display both lower and upper case alphabets
+except e and q
