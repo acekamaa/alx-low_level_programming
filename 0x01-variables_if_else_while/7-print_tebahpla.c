@@ -2,10 +2,10 @@
 #include <stdio.h>
 int main()
 {
-	int a;
-	for (a = 'z' ; a = 'a' ; a--) 
+	int i;
+	for (i = 'z' ; i = 'a' ; i--) 
 	{
-		putchar(a);
+		putchar(i);
 	}
 	return 0; 
 }
