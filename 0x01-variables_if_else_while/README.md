@@ -1,1 +1,1 @@
-single numbers
+any num
