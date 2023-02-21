@@ -7,7 +7,6 @@ void print_alphabet(void);
 		if (a == 'A' && a == 'Z')
 		{
 			tolower(a);
-			putchar(a);
 		}
 		putchar(a);
 	}
