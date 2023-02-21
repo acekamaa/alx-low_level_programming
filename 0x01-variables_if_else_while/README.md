@@ -1,1 +1,1 @@
-all single num
+reverse of alphabets
