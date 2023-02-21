@@ -1,5 +1,4 @@
-#!/bin/bash
-#include <stdlib.h>
+`#include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
