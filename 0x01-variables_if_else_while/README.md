@@ -1,1 +1,1 @@
-except e and q
+numbers of base 10
