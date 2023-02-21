@@ -1,1 +1,1 @@
-reverse of alphabets
+base 16
