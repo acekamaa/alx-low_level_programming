@@ -4,7 +4,7 @@ int main() {
 	/* declare variable */
 	int i;
 	for (i=0 ;i < 10 ; i++) {
-		putchar(int i);
+		putchar(i);
 	}
 	return 0;
 }
