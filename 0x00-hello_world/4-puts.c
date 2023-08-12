@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 /**
  * main - Entry
  *
@@ -6,6 +7,9 @@
  */
 int main(void)
 {
-	puts("Programming is like building a multilingual puzzle");
-		return (0);
+	char b[] = "''Programming is like building a multilingual puzzle";
+
+	puts(b);
+
+	return (0);
 }
