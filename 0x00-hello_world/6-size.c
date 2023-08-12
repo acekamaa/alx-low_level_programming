@@ -1,8 +1,8 @@
 #include<stdio.h>
 /*
- * main is entry point
  * return 0 if success
  * install libc6-dev-i386 to run -m32 gcc
+ *main - Entry point 
  */
 int main(void)
 {
