@@ -1,9 +1,5 @@
 #include<stdio.h>
-/*
- * return 0 if success
- * install libc6-dev-i386 to run -m32 gcc
- *main - Entry point 
- */
+/* displays size of datatypes */
 int main(void)
 {
 	printf("size of char:%d bytes \n", sizeof(char));
