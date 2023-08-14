@@ -7,17 +7,11 @@
  */
 int main(void)
 {
-	char a[] = "abcdefghijklmnopuvwxyz";
-	char b[] = "ABCDEFGHIJKLMNOPUVWXYZ";
+	char a[] = "abcdefghijklmnopuvwxyzABCDEFGHIJKLMNOPUVWXYZ";
 	int i;
-	int j;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 52; i++)
 	{
-		for (j = i; j < 26; j++)
-		{
-		putchar(b[j]);
-		}
 	putchar(a[i]);
 	}
 	putchar('\n');
