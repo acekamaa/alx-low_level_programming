@@ -6,4 +6,7 @@
 /*  _putchar prints to stdout */
 int _putchar(char);
 
+/* print_alphabet, prints the alphabet in lowercase */
+void print_alphabet(void);
+
 #endif
