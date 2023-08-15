@@ -3,7 +3,7 @@
 /**
  * main - Entry point, prints all single numbers of base 10 from 0
  *
- * Returns: Always (Success)
+ * Returns: Always 0(Success)
  */
 int main(void)
 {
