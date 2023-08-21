@@ -1,25 +1,11 @@
-#include "main.h"
+#include "Main.h"
 
 /**
- * main - Entry point, updates parameter value by use of pointers
- *
- * reset_to_98 - holds the function to update parameter value
- *
- * Return: Always 0(success)
+ * reset_to_98 - prints the updated value of n
+ * @n: holds the pointer to the variable address
+ * Return: Always n(success)
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	void reset_to_98(int *n)
-	{
-		int n;
-		int *p = &n;
-
-		n = 402;
-		printf("n is:%d\n",n);
-
-		p = 98;
-		printf("n is:%d\n",n);
-	}
-	return (0);
+	*n = 98;
 }
-
