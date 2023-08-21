@@ -3,7 +3,8 @@
 
 /**
  * _puts - prints a string
- * *t - stores and prints the string
+ *
+ * @t: stores and prints the string
  * return: always t(success)
  */
 void _puts(char *t)
