@@ -12,7 +12,7 @@ void _puts(char *str)
 	while (*str != '\0')
 	{
 		/* *str prints the string value */
-		_putchar("%d\n:", *str);
+		putchar(*str);
 		str++;
 	}
 }
