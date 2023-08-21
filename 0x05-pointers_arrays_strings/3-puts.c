@@ -4,15 +4,15 @@
 /**
  * _puts - prints a string
  *
- * @t: stores and prints the string
- * return: always t(success)
+ * @str: stores and prints the string
+ * return: always 0(success)
  */
-void _puts(char *t)
+void _puts(char *str)
 {
-	while (*t != '\0')
+	while (*str != '\0')
 	{
-		/* *t prints the string value */
-		printf("%d\n:", *t);
-		t++;
+		/* *str prints the string value */
+		_putchar("%d\n:", *str);
+		str++;
 	}
 }
