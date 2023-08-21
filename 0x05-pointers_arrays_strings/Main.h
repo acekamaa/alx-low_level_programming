@@ -11,5 +11,6 @@ int _strlen(char *s); /* @s returns the length of a string */
 int _strlen(char *s); /* @s returns size of the string */
 void _puts(char *str); /* @str prints a string */
 void print_rev(char *s); /* @s prints a string in reverse */
+void rev_string(char *s); /* @s reverses a string that is in place */
 
 #endif
