@@ -18,7 +18,7 @@ char *_strcpy(char *dest, char *src)
 		putchar(*dest_ptr);
 	}
 	*dest = '\0';
-	putchar(*dest_ptr);
+	putchar(*dest);
 
 	return (0);
 }
