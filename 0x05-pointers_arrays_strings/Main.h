@@ -19,8 +19,8 @@ void _puts(char *str); /* @str: prints a string */
 void print_rev(char *s); /* @s: prints a string in reverse */
 /* rev_string - reverses a string */
 void rev_string(char *s); /* @s: reverses a string that is in place */
-/* puts2 - prints characters of a string */
-void puts2(char *str); /* @str: prints every other character of a string */
+void puts2(char *str); /* @str: prints every other character */
 void puts_half(char *str); /* @str: prints half of a string */
-
+void print_array(int *a, int n); /* @a: holds pointer */
+void print_array(int *a, int n); /* @a: holds array of integer */
 #endif
