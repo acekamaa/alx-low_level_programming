@@ -1,10 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * n - input
- * stores prototypes to this project
- */
 /* reset_to_98 - resets value of @n to 98 */
 void reset_to_98(int *n); /* n: here is a pointer to a parameter */
 /* swap_int - swaps value @a with that of @b */
@@ -23,4 +19,5 @@ void puts2(char *str); /* @str: prints every other character */
 void puts_half(char *str); /* @str: prints half of a string */
 void print_array(int *a, int n); /* @a: holds pointer */
 void print_array(int *a, int n); /* @a: holds array of integer */
+char *_strcpy(char *dest, char *src); 
 #endif
