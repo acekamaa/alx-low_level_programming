@@ -19,5 +19,6 @@ void puts2(char *str); /* @str: prints every other character */
 void puts_half(char *str); /* @str: prints half of a string */
 void print_array(int *a, int n); /* @a: holds pointer */
 void print_array(int *a, int n); /* @a: holds array of integer */
-char *_strcpy(char *dest, char *src); 
+char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 #endif
