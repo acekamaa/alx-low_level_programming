@@ -4,6 +4,7 @@
  * *_strncpy - copies a string
  * @dest: holds first char
  * @src: holds const char
+ * @n: holds int value
  * Return: Always orig(success)
  */
 char *_strncpy(char *dest, char *src, int n)
