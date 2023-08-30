@@ -3,22 +3,22 @@
 /**
  * _sqrt_recursive - calculates square root
  * @n: holds first int
- * @s: holds second int
- * @d: holds int
+ * @start: holds second int
+ * @end: holds int
  *
  * Return: Always n.
  */
 int _sqrt_recursive(int n)
 {
 	int mid;
-	int s;
-	int d;
+	int start;
+	int end;
 
-	if (s > d)
+	if (start > end)
 	{
 		return (-1);
 	}
-	mid = s + (d - s) / 2;
+	mid = start + (end - start) / 2;
 	int m = mid * mid;
 
 	if (m == n)
