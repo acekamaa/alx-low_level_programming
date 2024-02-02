@@ -36,5 +36,6 @@ int main(void)
 	printf("-> %lu elements\n", n);
 
 	free(new);
+	free(head);
 	return (0);
 }
