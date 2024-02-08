@@ -2,26 +2,49 @@
 #include <stdio.h>
 
 /**
- * print_binary - converts to binary from ul
- * @n: long int unsigned
+ * _pow - func calc (base ^ power)
+ * @base: base of exponent
+ * @power: the exponent raising factor
+ *
+ * Return: val of _pow
+ */
+unsigned long int _pow(unsigned int base, unsigned int power)
+{
+	unsigned long int num;
+	unsigned int a;
+
+	num = 1;
+	for (a = 1; a <= power; a++)
+	{
+		num *= base;
+	}
+	return (num);
+}
+
+/**
+ * print_binary - prints a number in binary fashion
+ * @n: number to be printed
  *
  * Return: Nothing
  */
 void print_binary(unsigned long int n)
 {
-	int i;
-	unsigned long int mask;
+	unsigned long int divisor, check;
+	char flag = 0;
 
-	for (i = 31; i >= 0; i--)
+	divisor = _pow(2, sizeof(unsigned long int) * 8 - 1);
+	while (divisor != 0)
 	{
-		mask = 1UL << i;
-		if (n && mask)
+		check = n & divisor;
+		if (check == divisor)
 		{
-			printf("1");
+			flag = 1;
+			putchar('1');
 		}
-		else
+		else if (flag == 1 || divisor == 1)
 		{
-			printf("0");
+			putchar('0');
 		}
+		divisor >>= 1;
 	}
 }
